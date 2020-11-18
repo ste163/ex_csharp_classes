@@ -8,7 +8,7 @@ namespace ListExercise
         public string Name { get; }
         public DateTime CreatedOn { get; }
 
-        public List<Employee> Employees { get; }
+        public List<Employee> Employees { get; } = new List<Employee>();
 
         public Company(string name)
         {
